@@ -1,0 +1,49 @@
+database = gestione_interrogazioni
+
+tabella studenti sql
+
+
+
+CREATE TABLE studenti (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
+);
+
+
+
+INSERT INTO studenti (nome) VALUES
+("Bianchi Marco"),
+("Bonanni Lorenzo"),
+("Coppola Alessia"),
+("Coppola Kimberly"),
+("Corvitto Simone"),
+("Dascalu Virgil Codin Alessio"),
+("De iaco Gabriele"),
+("Fassino Matteo"),
+("Golisano Riccardo"),
+("Hayat Walid"),
+("Lo gioco Marco"),
+("Macrino Federico"),
+("Marconetto Christan"),
+("Martinelli Davide"),
+("Milan Marta"),
+("Mosca Micol"),
+("Musso Andrea"),
+("Olivieri Simone"),
+("Pinto Antonino"),
+("Prosperi Jacopo"),
+("Puccio Marco"),
+("Rimedio Simone"),
+("Sciurti Mirko");
+
+
+
+tabella professori
+CREATE TABLE professori (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+INSERT INTO professori (nome, password) VALUES ('prof1', 'password1');
+INSERT INTO professori (nome, password) VALUES ('prof2', 'password2');
