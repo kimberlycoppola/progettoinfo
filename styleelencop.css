@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #808080, #A9A9A9, #C0C0C0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff; /* Cambia il colore dello sfondo */
+    border-radius: 10px; /* Aggiungi bordi arrotondati */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Aggiungi ombra */
+    text-align: center; /* Allinea il testo al centro */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style-type: none; /* Rimuovi i punti dall'elenco */
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px; /* Limita la larghezza dell'elenco */
+    text-align: left; /* Allinea il testo a sinistra */
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #778899;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Centra il pulsante */
+  }
+  
+  button:hover {
+    background-color: #708090;
+  }
+  
+  a {
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #333;
+  }
+  
